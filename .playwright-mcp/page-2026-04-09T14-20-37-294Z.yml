@@ -1,0 +1,67 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "LinkedIn" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - generic "LinkedIn" [ref=e5]:
+        - img [ref=e6]
+  - main [ref=e8]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - heading "Sign in" [level=1] [ref=e12]
+        - paragraph
+      - generic [ref=e13]:
+        - button "Sign in with Apple" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+          - generic [ref=e18]: Sign in with Apple
+        - generic [ref=e20]: or
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - textbox "Email or phone" [active] [ref=e23]:
+            - /placeholder: " "
+            - text: devsparekh@gmail.com
+          - generic [ref=e24]: Email or phone
+        - generic [ref=e25]:
+          - textbox "Password" [ref=e26]
+          - generic [ref=e27]: Password
+          - button "Show" [ref=e28] [cursor=pointer]
+          - alert [ref=e29]: Wrong email or password. Try again or create an account .
+        - link "Forgot password?" [ref=e30] [cursor=pointer]:
+          - /url: /checkpoint/rp/request-password-reset
+        - generic [ref=e31]:
+          - checkbox "Keep me logged in" [checked]
+          - generic [ref=e32]: Keep me logged in
+        - button "Sign in" [ref=e34] [cursor=pointer]
+    - generic [ref=e35]:
+      - text: New to LinkedIn?
+      - link "Join now" [ref=e36] [cursor=pointer]:
+        - /url: /signup/cold-join
+  - contentinfo [ref=e37]:
+    - generic [ref=e38]:
+      - paragraph [ref=e39]:
+        - img [ref=e41]
+        - emphasis [ref=e53]:
+          - generic: LinkedIn
+          - text: © 2026
+      - list "Footer Legal Menu" [ref=e55]:
+        - listitem [ref=e56]:
+          - link "User Agreement" [ref=e57] [cursor=pointer]:
+            - /url: /legal/user-agreement?trk=d_checkpoint_lg_consumer_login_ft_user_agreement
+        - listitem [ref=e58]:
+          - link "Privacy Policy" [ref=e59] [cursor=pointer]:
+            - /url: /legal/privacy-policy?trk=d_checkpoint_lg_consumer_login_ft_privacy_policy
+        - listitem [ref=e60]:
+          - link "Community Guidelines" [ref=e61] [cursor=pointer]:
+            - /url: /help/linkedin/answer/34593?lang=en&trk=d_checkpoint_lg_consumer_login_ft_community_guidelines
+        - listitem [ref=e62]:
+          - link "Cookie Policy" [ref=e63] [cursor=pointer]:
+            - /url: /legal/cookie-policy?trk=d_checkpoint_lg_consumer_login_ft_cookie_policy
+        - listitem [ref=e64]:
+          - link "Copyright Policy" [ref=e65] [cursor=pointer]:
+            - /url: /legal/copyright-policy?trk=d_checkpoint_lg_consumer_login_ft_copyright_policy
+        - listitem [ref=e66]:
+          - link "Send Feedback" [ref=e67] [cursor=pointer]:
+            - /url: /help/linkedin?trk=d_checkpoint_lg_consumer_login_ft_send_feedback&lang=en
+        - listitem [ref=e68]:
+          - button "Language" [ref=e70] [cursor=pointer]:
+            - text: Language
+            - img [ref=e72]
